@@ -2,18 +2,32 @@ name: jixiaxingliang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
-jobs:  # 24101
+    - cron: '7 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jixiaxingliang
         env:
-          iql76591: ${{ secrets.iql76591 }}
+          vrau040: ${{ secrets.vrau040 }}
         run: |
-          echo $iql76591 | jq -r .spq585 | /bin/bash
-          echo $ws1758 | jq -r .ftb94 | /bin/bash
-          echo $ujxu355 | jq -r .jeeue0563 | /bin/bash
-          echo $mevyq2 | jq -r .rah043 | /bin/bash
+          echo $vrau040 | jq -r .qhzr33675 | /bin/bash
+          echo $mhb34639 | jq -r .mokuu03338 | /bin/bash
+          echo $x8848 | jq -r .oy2 | /bin/bash
+          echo $elms34 | jq -r .yxuo8124 | /bin/bash
+          echo $n60121 | jq -r .pwp2 | /bin/bash
+          echo $a12020 | jq -r .qs0289 | /bin/bash
+          echo $w539 | jq -r .is83 | /bin/bash
+          echo $vaclz30 | jq -r .t5 | /bin/bash
+          echo $fxvr33 | jq -r .mzub8923 | /bin/bash
+          echo $ppluw655 | jq -r .ly18 | /bin/bash
+          echo $isyje28992 | jq -r .iyo46 | /bin/bash
+          echo $f0163 | jq -r .yc322 | /bin/bash
+          echo $yv9994 | jq -r .f104 | /bin/bash
+          echo $hi081 | jq -r .in50 | /bin/bash
+          echo $lft62443 | jq -r .uwc3976 | /bin/bash
+          echo $gsa9338 | jq -r .ny998 | /bin/bash
+          echo $ma751 | jq -r .sd9 | /bin/bash
+          echo $y86 | jq -r .wgw0219 | /bin/bash
 
